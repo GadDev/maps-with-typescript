@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/google.maps": "^3.43.0",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "@types/faker": "^5.1.7",
+    "@types/googlemaps": "^3.43.3",
+    "faker": "^5.4.0",
+    "http-server": "^0.12.3"
+  },
+  "scripts": {
+    "start": "npm run dev & npm run open",
+    "dev": "parcel index.html ",
+    "build": "parcel index.html",
+    "open": "http-server -a localhost -p 1234"
+  }
+}
